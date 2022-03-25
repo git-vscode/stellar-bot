@@ -5,11 +5,12 @@
   "name": "hello-express",
   "version": "1.0.2",
   "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ."
   },
   "dependencies": {
+    
     "@discordjs/opus": "^0.5.3",
     "@distube/ytpl": "^1.1.1",
     "akaneko": "^3.5.1",
@@ -91,7 +92,8 @@
     "ytsr": "^3.6.0"
   },
   "engines": {
-    "node": "12.x"
+    "node": ">=16.0.0",
+    "npm":">=7.0.0"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/hello-express"
